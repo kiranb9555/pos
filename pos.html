@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="d-flex">
+        <nav class="menu" style="width: 350px;" tabindex="0">
+            <div class="smartphone-menu-trigger"></div>
+            <header class="avatar">
+                <img
+                    src="data:image/jpeg;base64,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" />
+                <h2>John D.</h2>
+            </header>
+            <ul>
+                <li tabindex="0" class="icon-dashboard"><span> <i class="me-3 fa-solid fa-gauge"></i>Dashboard</span>
+                </li>
+                <li tabindex="0" class="icon-customers"><span><i class="me-3 fa-solid fa-file-lines"></i>Invoice</span>
+                </li>
+                <li tabindex="0" class="icon-users"><span><i class="me-3 fa-solid fa-file-lines"></i> POS Invoice</span>
+                </li>
+                <li tabindex="0" class="icon-settings"><span> <i
+                            class="me-3 fa-solid fa-arrow-down-wide-short"></i>Order</span></li>
+                <li tabindex="0" class="icon-settings"><span><i
+                            class="me-3 fa-solid fa-parachute-box"></i>Supplier</span>
+                </li>
+                <li tabindex="0" class="icon-settings"><span><i
+                            class="me-3 fa-solid fa-cart-shopping"></i>Purchase</span>
+                </li>
+                <li tabindex="0" class="icon-settings"><span><i class="me-3 fa-regular fa-book"></i>Category</span>
+                </li>
+                <li tabindex="0" class="icon-settings"><span><i class=" me-3 fa-solid fa-buildings"></i>brand</span>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="m-container">
+            <!-- <nav>
+        </nav> -->
+            <div class="second-nav">
+                <div class="left-side">
+                    <!-- <div class="left-side-image">
+                    <img src="" alt="" srcset="">
+                        </div> -->
+                    <div class="left-side-text">
+                        <h3>New Invoice</h3>
+                        <p>Add New Invoice</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <li> Home </li>/
+                    <li> Invoice </li>/
+                    <li> New Invoice </li>
+                </div>
+            </div>
+            <div>
+                <button class="btn light-blue-btn">
+                    <i class="fa-solid fa-bars"></i>
+                    Manage Invoice
+                </button>
+                <button class="btn dark-blue-btn">
+                    <i class="fa-solid fa-bars"></i>
+                    POS Invoice
+                </button>
+            </div>
+            <div class="mt-3 main-container">
+                <h3 class="main-container-heading">New Invoice</h3>
+                <div style="margin:5px;width: 50%;">
+                    <div>
+                        <label for="customer-name">Customer Name</label>
+                        <input style=" margin-left: 30px;" name="customer-name" id="customer-name"
+                            placeholder="Customer Name" />
+                        <button style=" margin-left: 50px;" class="btn btn btn-success ml-2">New Customer</button>
+                    </div>
+                </div>
+                <div style="margin:5px;width: 50%;">
+                    <label for="store">Store</label>
+                    <input class="me-5" style=" margin-left: 30px;" name="store" id="store" placeholder="Store" />
+                    <label for="date">Date</label>
+                    <input type="date" style=" margin-left: 30px;" name="date" id="date" placeholder="Date" />
+                </div>
+                <table class="table table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item Information</th>
+                            <th scope="col">Variant</th>
+                            <th scope="col">Ava.Qty</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">Qnty</th>
+                            <th scope="col">Rate</th>
+                            <th scope="col">Dis/Pcs</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input class="form-control" placeholder="Product Name" />
+                            </td>
+                            <td>
+                                <select class="form-select info-input" aria-label="Default select example">
+                                    <option value="1">Select Option</option>
+                                    <option value="2">1</option>
+                                    <option value="3">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control info-input" placeholder="0" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control info-input" placeholder="None" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control info-input" placeholder="0.0" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control info-input" placeholder="0.0" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control info-input" placeholder="0.0" />
+                            </td>
+                            <td class="w-4">
+                                <input type="text" class="form-control " placeholder="0.0" />
+                            </td>
+                            <td>
+                                <button class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" rowspan="4">
+                                <h4>Invoice Details</h4>
+                                <textarea rows="5" class="form-control" style="width: 100%;height: 100%;"
+                                    placeholder="Invoice Details">
+                        </textarea>
+                            </td>
+                            <td class="text-right" colspan="3">
+                                Product Discount :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right" colspan="3">
+                                Invoice Discount :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right" colspan="3">
+                                Service Charge :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right" colspan="3">
+                                Grand Total :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="btn light-blue-btn">Add New Item</button>
+                                <button class="btn btn-warning">Full Paid</button>
+                            </td>
+                            <td class="text-right" colspan="3">
+
+                            </td>
+                            <td class="text-right" colspan="3">
+                                Paid :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="btn btn-primary">Payment</button>
+                                <button class="btn btn-success">Submit</button>
+                            </td>
+                            <td class="text-right" colspan="3">
+
+                            </td>
+                            <td class="text-right" colspan="3">
+                                Due :
+                            </td>
+                            <td colspan="1">
+                                <input placeholder="0.0" class="form-control" />
+                            </td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

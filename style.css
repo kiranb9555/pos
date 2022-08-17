@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {
+    width: 100vw;
+  }
+  
+  .m-container {
+    padding: 10px;
+    width: 100vw;
+  }
+  
+  .second-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .left-side-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-side-text p {
+    color: #c5bdbd;
+  }
+  
+  .right-side {
+    height: 30px;
+    background-color: lightgrey;
+    border: 1px solid rgb(206, 204, 204);
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+  
+  .right-side li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .info-input {
+    width: 120px;
+  }
+  
+  button {
+    margin: 0;
+  }
+  
+  button i {
+    margin: 10px;
+  }
+  
+  .light-blue-btn {
+    background-color: aquamarine;
+  }
+  
+  .light-blue-btn:hover {
+    background-color: rgb(177, 228, 211);
+  }
+  
+  .dark-blue-btn {
+    background-color: darkcyan;
+  }
+  
+  .dark-blue-btn:hover {
+    background-color: rgb(32, 209, 209);
+  }
+  
+  .main-container-heading {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(155, 155, 155);
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .menu {
+    text-align: center;
+  }
+  
+  .avatar {
+    margin: 50px 0px 50px 0px;
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  ul {
+    padding-right: 2rem;
+  }
+  
+  ul li {
+    cursor: pointer;
+    list-style: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+  
+  .menu {
+    color: white;
+    background-color: rgb(27, 27, 194);
+    border-right: 1px solid grey;
+  }
+  
