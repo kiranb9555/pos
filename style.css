@@ -12,6 +12,10 @@
     padding: 10px;
     width: 100vw;
   }
+
+  nav{
+    back
+  }
   
   .second-nav {
     display: flex;
@@ -92,6 +96,7 @@
   }
   
   .menu {
+    
     text-align: center;
   }
   
@@ -121,8 +126,10 @@
   }
   
   .menu {
-    color: white;
-    background-color: rgb(27, 27, 194);
+    color:aqua;
+    
+    border: rgb(185, 172, 172) solid 1px;
+    background-color: rgb(5, 5, 17);
     border-right: 1px solid grey;
   }
   
