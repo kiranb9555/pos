@@ -1,0 +1,58 @@
+dashboar -remove  variatn, avg qty, service charge add tax 
+
+
+Menus
+
+Remove purchase
+Add customer,products ,rename pos invoice to billing 
+
+Add employees( list of emp and users for pos ) 
+
+
+customer name ,mobile no or email  for invoice
+
+1.Retail and whole sales customer
+
+query in customer for any product and services for customer ,via phone,whatapp ,add platform,social media
+justdail 
+
+about location need to be open till not intrested to visit the store ,or buys 
+
+2.
+
+dashboard 
+admin -- qu
+daily sales ,graphs also be dynamic , 
+
+change color to white ,border
+
+
+support staff this is phone ,staff should contact
+Admin -change in order status,billing ,no access to user 
+
+billing staff
+product ,only orders 
+
+
+support staff 
+-----------
+
+status open or close  and query no ,query along with contat
+details button all details ,hes asking 
+
+search input -pho/product/
+query 
+10th aug raised a query from supprot to sales last update
+
+
+
+
+Biliig ---menu
+new bill 
+invocie
+
+
+Repair menu---same as invoice 
+
+orders-------same as invoice , invoice no ,order ,date ,update on 
+delivery in shipping or order recived 
