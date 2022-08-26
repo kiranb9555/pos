@@ -233,3 +233,34 @@ th{
   font-size: 11px;
   color: #818181;
 }
+
+.btn-orange{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color:#ff9b44 ;
+  font-weight: bold;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.btn-orange span{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus
+{
+  background-color:#ff9b44 ;
+  font-weight: bold;
+  color: white;
+  border-color: #ff9b44;
+}
