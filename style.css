@@ -62,7 +62,7 @@ text-decoration:none ;
   }
   
   .info-input {
-    width: 120px;
+    width: 100px;
   }
   
   button {
@@ -210,4 +210,26 @@ color:aqua;
   text-align: left;
   cursor: pointer;
   outline: none;
+}
+
+.material-icons{
+  font-size: 16px !important;
+}
+
+.btn-update{
+  width: 70px;
+  font-size: 14px;
+}
+
+.action-column button{
+  margin: 2px;
+}
+
+tr > td{
+  font-size: 13px;
+}
+
+th{
+  font-size: 11px;
+  color: #818181;
 }

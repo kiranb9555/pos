@@ -44,17 +44,35 @@
                     </div>
                     <ul class="dropdown-container">
                         <a id="sublist-item">Add Product</a>
-                        <a id="sublist-item">Manage Products</a>
+                        <a href="Billing.html" id="sublist-item">Manage Products</a>
                     </ul>
                 </li>
-                <li tabindex="0" class="icon-Invoice"><span><i class="me-3 fa-solid fa-file-lines"></i>Invoice</span>
+
+                <li>
+                    <div tabindex="0" class="icon-Products dropdown-btn">
+                        <a href="#">
+                            <span class="me-2">
+                                <span class="material-icons" style="font-size: 15px;text-align: center;">
+                                    receipt_long</span>
+                            </span>Invoice
+                        </a>
+
+
+                        <i class="fa fa-caret-down" style="margin-right: 10px;"></i>
+                    </div>
+                    <ul class="dropdown-container">
+                        <a id="sublist-item">New Invoice</a>
+                        <a href="Billing.html" id="sublist-item">Billing</a>
+                    </ul>
+                </li>
+
                 </li>
                 <li tabindex="0" class="icon-Billing"><span><i class="me-3 fa-solid fa-file-lines"></i> Billing</span>
                 </li>
                 <li tabindex="0" class="icon-Employees"><span>
                         <span class="material-icons me-2" style="font-size: 15px;text-align: center;">
                             badge</span>
-                        Employees
+                        <a href="Employee.html">Employees</a>
                     </span>
                 </li>
 
@@ -137,8 +155,6 @@
                     <thead>
                         <tr>
                             <th scope="col">Item Information</th>
-
-
                             <th scope="col">Unit</th>
                             <th scope="col">Qnty</th>
                             <th scope="col">Rate</th>
